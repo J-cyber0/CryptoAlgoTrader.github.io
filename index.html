@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,700;1,800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,700;1,800&display=swap"
     />
     <link
       rel="stylesheet"
@@ -749,56 +749,46 @@
         <img class="divider-icon5" alt="" src="./public/divider.svg" />
       </section>
       <section class="community1" data-scroll-to="community">
-        <div class="joinform-parent">
-          <div class="joinform">
-            <h1 class="title15">Join Our Community</h1>
-            <div class="emailinput">
-              <div class="title16">Email</div>
-              <div class="textfield">
-                <input
-                  class="text"
-                  placeholder="Enter your email"
-                  type="text"
-                />
-              </div>
-            </div>
-            <div class="passwordinput">
-              <div class="title17">Password</div>
-              <div class="textfield1">
-                <input
-                  class="text1"
-                  placeholder="Create a password"
-                  type="text"
-                />
-              </div>
-            </div>
-            <div class="getintouchbutton">
-              <div class="join-now-wrapper">
-                <b class="join-now">Join Now</b>
-              </div>
+        <div class="joinform">
+          <h1 class="title15">Join Our Community</h1>
+          <div class="emailinput">
+            <div class="title16">Email</div>
+            <div class="textfield">
+              <input class="text" placeholder="Enter your email" type="text" />
             </div>
           </div>
-          <div class="profilecard">
-            <button class="profilephoto">
-              <img
-                class="image-19-icon"
-                alt=""
-                src="./public/image-19@2x.png"
+          <div class="passwordinput">
+            <div class="title17">Password</div>
+            <div class="textfield1">
+              <input
+                class="text1"
+                placeholder="Create a password"
+                type="text"
               />
-            </button>
-            <div class="profiledesc">
-              <h3 class="title18">Blockchain / Web Developer</h3>
-              <div class="selection">
-                <div class="label-normal">
-                  <div class="label-text">
-                    Expertise in Blockchain and Web Development
-                  </div>
+            </div>
+          </div>
+          <div class="getintouchbutton">
+            <div class="join-now-wrapper">
+              <b class="join-now">Join Now</b>
+            </div>
+          </div>
+        </div>
+        <div class="profilecard">
+          <button class="profilephoto">
+            <img class="image-19-icon" alt="" src="./public/image-19@2x.png" />
+          </button>
+          <div class="profiledesc">
+            <h3 class="title18">Blockchain / Web Developer</h3>
+            <div class="selection">
+              <div class="label-normal">
+                <div class="label-text">
+                  Expertise in Blockchain and Web Development
                 </div>
               </div>
-              <i class="description6">Captain, JC Martinez</i>
             </div>
-            <img class="divider-icon6" alt="" src="./public/divider-6.svg" />
+            <i class="description6">Captain, JC Martinez</i>
           </div>
+          <img class="divider-icon6" alt="" src="./public/divider-6.svg" />
         </div>
         <img class="divider-icon7" alt="" src="./public/divider.svg" />
       </section>
@@ -1029,7 +1019,7 @@
       var resourcesContainer = document.getElementById("resourcesContainer");
       if (resourcesContainer) {
         resourcesContainer.addEventListener("click", function (e) {
-          // Please sync "Prototype - Resources Page" to the project
+          window.location.href = "./prototype-resources-page.html";
         });
       }
     </script>
