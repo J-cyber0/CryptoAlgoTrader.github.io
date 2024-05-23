@@ -1,89 +1,919 @@
----
-layout: default
----
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CryptoAlgoTrader</title>
-    <!-- Link to your CSS file -->
-    <link rel="stylesheet" href="src/static/css/styles.css">
-</head>
-<body>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="/src/templates/home.html">Home</a></li>
-            <li><a href="/src/templates/about.html">About</a></li>
-            <li><a href="/src/templates/services.html">Services</a></li>
-            <li><a href="/src/templates/strategies.html">Strategies</a></li>
-            <li><a href="/src/templates/backtests.html">Backtests</a></li>
-            <li><a href="/src/templates/community.html">Community</a></li>
-            <li><a href="/src/templates/contact.html">Contact</a></li>
-            <li><a href="/src/templates/login.html">Login/Signup</a></li>
-            <li><a href="/src/templates/resources.html">Resources</a></li>
-        </ul>
-    </nav>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-    <!-- Main Content Sections -->
-    <div id="home" class="section">
-        <h2>Welcome to CryptoAlgoTrader!</h2>
-        <p>Explore the world of cryptocurrency trading with our advanced algorithmic trading platform. Get real-time insights, automated trading strategies, and comprehensive backtesting.</p>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,700;1,800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:ital,wght@0,400;0,600;1,400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="prototype-home-page">
+      <section class="firstfold-wrapper">
+        <div class="firstfold">
+          <div class="top-bar-wrapper">
+            <header class="top-bar">
+              <div class="logo">
+                <div class="logo1"></div>
+              </div>
+              <nav class="navigation">
+                <div class="home-button">
+                  <div class="home">Home</div>
+                </div>
+                <div class="about-button">
+                  <div class="about">About</div>
+                </div>
+                <div class="skillset-button">
+                  <div class="skillset">Skillset</div>
+                </div>
+                <div class="strategies-button">
+                  <div class="strategies">Strategies</div>
+                </div>
+                <div class="my-work-button">
+                  <div class="backtests">My Work</div>
+                </div>
+                <div class="currentprojects-button">
+                  <div class="current-projects">Current Projects</div>
+                </div>
+                <div class="upcomingprojects-button">
+                  <div class="upcoming-projects">Upcoming Projects</div>
+                </div>
+                <div class="community-button">
+                  <div class="community">Community</div>
+                </div>
+                <div class="resources-button">
+                  <div class="resources">Resources</div>
+                </div>
+              </nav>
+            </header>
+          </div>
+          <div class="firstfold-inner">
+            <div class="frame-parent">
+              <div class="title-parent">
+                <h1 class="title">JM Labs</h1>
+                <div class="frame-wrapper">
+                  <div class="frame-group">
+                    <div class="blockchain-web-developer-por-wrapper">
+                      <div class="blockchain-web">
+                        Blockchain & Web Developer Portfolio
+                      </div>
+                    </div>
+                    <div class="fiverr-button-parent">
+                      <div class="fiverr-button">
+                        <img
+                          class="fiverr-icon"
+                          alt=""
+                          src="./public/fiverr@2x.png"
+                        />
+                      </div>
+                      <div class="github-button-wrapper">
+                        <div class="github-button">
+                          <img
+                            class="github-icon"
+                            alt=""
+                            src="./public/github@2x.png"
+                          />
+                        </div>
+                      </div>
+                      <div class="x-button-wrapper">
+                        <div class="x-button">
+                          <img
+                            class="twitterx-icon"
+                            alt=""
+                            src="./public/twitterx@2x.png"
+                          />
+                        </div>
+                      </div>
+                      <div class="telegram-button-wrapper">
+                        <div class="telegram-button">
+                          <img
+                            class="telegram-app-icon"
+                            alt=""
+                            src="./public/telegram-app@2x.png"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="checkoutworkbutton-wrapper">
+                  <button class="checkoutworkbutton">
+                    <b class="check-out-my">Check Out My Work</b>
+                    <div class="advance-wrapper">
+                      <img
+                        class="advance-icon"
+                        alt=""
+                        src="./public/advance@2x.png"
+                      />
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="dropdown-button-wrapper">
+                <div class="dropdown-button">
+                  <img
+                    class="dropdown-arrow-icon"
+                    alt=""
+                    src="./public/dropdown-arrow@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prototype-home-page-inner">
+        <div class="frame-container">
+          <div class="title-group">
+            <h1 class="title1">About Me</h1>
+            <h1 class="subtitle">Who I Am</h1>
+            <i class="description">
+              Hey there, I'm JC, your friendly neighborhood coding maestro, on a
+              mission to conquer the digital Wild West, one line of code at a
+              time. At the ripe old age of 27 (hey, in tech years, that's
+              practically ancient), I'm always hungry for new challenges and
+              adventures. When I'm not knee-deep in algorithms, you can catch me
+              binge-watching finance, stats, and blockchain content on YouTube
+              and Udemy—because even superheroes need a break. And when duty
+              calls, I seamlessly juggle the complexities of family life with my
+              coding escapades, because who says you can't have it all?</i
+            >
+          </div>
+          <div class="title-container">
+            <h1 class="title2">What I Do</h1>
+            <i class="description1">
+              <span>
+                <p class="armed-with-my">
+                  Armed with my trusty sidekicks of Web Development and
+                  Blockchain, I traverse the digital frontier as the tech-savvy
+                  gunslinger you need to tame any crypto conundrum that crosses
+                  your path. My specialty? Crafting sophisticated freqtrade
+                  crypto bots that leverage AI to train agents and construct
+                  precise prediction models.
+                </p>
+                <p class="currently-im-honing">
+                  Currently, I'm honing my skills in Rust, delving deep into its
+                  capabilities like a kid in a candy store—except here, the
+                  candy is code, and the store is the vast expanse of the
+                  internet.
+                </p>
+                <p class="in-the-realm">
+                  In the realm of blockchain, I'm not merely a creator of
+                  solutions; I'm an artisan. Every line of code is meticulously
+                  crafted to endure, akin to a well-aged wine or a timeless
+                  meme.
+                </p>
+                <p class="so-why-not">
+                  So, why not join me and let's explore the exciting
+                  possibilities of blockchain together? Feel free to reach out,
+                  and we’ll kickstart something amazing.
+                </p>
+              </span>
+            </i>
+          </div>
+        </div>
+      </section>
+      <section class="divider-wrapper">
+        <img
+          class="divider-icon"
+          loading="lazy"
+          alt=""
+          src="./public/divider.svg"
+        />
+      </section>
+      <section class="divider-parent">
+        <img class="divider-icon1" alt="" src="./public/divider.svg" />
+
+        <div class="frame-div">
+          <div class="skillset-parent">
+            <h1 class="skillset1">Skillset</h1>
+            <div class="subtitle-wrapper">
+              <h1 class="subtitle1">How I Do It</h1>
+            </div>
+          </div>
+        </div>
+        <div class="frame-wrapper1">
+          <div class="other-libraries-and-software-i-parent">
+            <div class="other-libraries-and">
+              Other libraries and software I frequently use:
+            </div>
+            <div class="frameworks-list">
+              <div class="react-logo">
+                <img
+                  class="icon-file-type-reactjs"
+                  loading="lazy"
+                  alt=""
+                  src="./public/-icon-file-type-reactjs.svg"
+                />
+
+                <div class="react-wrapper">
+                  <div class="react">React</div>
+                </div>
+              </div>
+              <div class="javascript-logo">
+                <div class="javascript-logo-wrapper">
+                  <img
+                    class="javascript-logo-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/javascript-logo.svg"
+                  />
+                </div>
+                <div class="javascript">JavaScript</div>
+              </div>
+              <div class="python-logo">
+                <img
+                  class="icon-file-type-python"
+                  loading="lazy"
+                  alt=""
+                  src="./public/-icon-file-type-python.svg"
+                />
+
+                <div class="python">Python</div>
+              </div>
+              <div class="nextjs-logo">
+                <button class="image-6-wrapper">
+                  <img
+                    class="image-6-icon"
+                    alt=""
+                    src="./public/image-6@2x.png"
+                  />
+                </button>
+                <div class="nextjs">NEXT.js</div>
+              </div>
+              <div class="html-logo">
+                <img
+                  class="icon-file-type-html"
+                  alt=""
+                  src="./public/-icon-file-type-html.svg"
+                />
+
+                <div class="html">HTML</div>
+              </div>
+              <div class="css-logo">
+                <img
+                  class="icon-file-type-css"
+                  alt=""
+                  src="./public/-icon-file-type-css.svg"
+                />
+
+                <div class="css-wrapper">
+                  <div class="css">CSS</div>
+                </div>
+              </div>
+              <div class="typescript-logo">
+                <div class="frame-frame">
+                  <img class="frame-icon" alt="" src="./public/frame.svg" />
+                </div>
+                <div class="typescript">TypeScript</div>
+              </div>
+              <div class="socketio-logo">
+                <button class="image-9-wrapper">
+                  <img
+                    class="image-9-icon"
+                    alt=""
+                    src="./public/image-9@2x.png"
+                  />
+                </button>
+                <div class="socketio">Socket.io</div>
+              </div>
+              <div class="etherjs-logo">
+                <div class="image-7-wrapper">
+                  <img
+                    class="image-7-icon"
+                    alt=""
+                    src="./public/image-7@2x.png"
+                  />
+                </div>
+                <div class="ethersjs">EthersJS</div>
+              </div>
+              <div class="pinescript-logo">
+                <div class="image-16-wrapper">
+                  <img
+                    class="image-16-icon"
+                    alt=""
+                    src="./public/image-16@2x.png"
+                  />
+                </div>
+                <div class="pine-script">Pine Script</div>
+              </div>
+              <div class="solidity-logo">
+                <div class="frame-wrapper2">
+                  <img class="frame-icon1" alt="" src="./public/frame-1.svg" />
+                </div>
+                <div class="solidity">Solidity</div>
+              </div>
+              <div class="hardhat-logo">
+                <img
+                  class="image-1-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/image-1@2x.png"
+                />
+
+                <div class="hardhat">Hardhat</div>
+              </div>
+              <div class="truffle-logo">
+                <img
+                  class="image-2-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/image-2@2x.png"
+                />
+
+                <div class="truffle">Truffle</div>
+              </div>
+              <div class="ganache-logo">
+                <div class="image-3-wrapper">
+                  <img
+                    class="image-3-icon"
+                    alt=""
+                    src="./public/image-3@2x.png"
+                  />
+                </div>
+                <div class="ganache">Ganache</div>
+              </div>
+              <div class="chainlink-logo">
+                <div class="image-4-wrapper">
+                  <img
+                    class="image-4-icon"
+                    alt=""
+                    src="./public/image-4@2x.png"
+                  />
+                </div>
+                <div class="chainlink">Chainlink</div>
+              </div>
+              <div class="nodejs">
+                <button class="image-5-wrapper">
+                  <img
+                    class="image-5-icon"
+                    alt=""
+                    src="./public/image-5@2x.png"
+                  />
+                </button>
+                <div class="nodejs1">NodeJS</div>
+              </div>
+              <div class="npm-logo">
+                <img class="frame-icon2" alt="" src="./public/frame-2.svg" />
+
+                <div class="npm-wrapper">
+                  <div class="npm">NPM</div>
+                </div>
+              </div>
+              <div class="git-logo">
+                <img
+                  class="image-8-icon"
+                  alt=""
+                  src="./public/image-8@2x.png"
+                />
+
+                <div class="git-wrapper">
+                  <div class="git">Git</div>
+                </div>
+              </div>
+              <div class="rust-logo">
+                <img class="frame-icon3" alt="" src="./public/frame-3.svg" />
+
+                <div class="rust-wrapper">
+                  <div class="rust">Rust</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prototype-home-page-child">
+        <div class="frame-parent1">
+          <div class="some-frameworks-and-technologi-wrapper">
+            <div class="some-frameworks-and">
+              Some frameworks and technologies I use in development:
+            </div>
+          </div>
+          <div class="frame-parent2">
+            <div class="freqtrade-logo-wrapper">
+              <button class="freqtrade-logo">
+                <div class="freqtrade-logo-child"></div>
+                <img
+                  class="image-10-icon"
+                  alt=""
+                  src="./public/image-10@2x.png"
+                />
+              </button>
+            </div>
+            <div class="freqai-wrapper">
+              <div class="freqai">
+                <img
+                  class="image-12-icon"
+                  alt=""
+                  src="./public/image-12@2x.png"
+                />
+
+                <div class="freqai-child"></div>
+              </div>
+            </div>
+            <div class="frame-wrapper3">
+              <div class="frame-parent3">
+                <div class="image-11-wrapper">
+                  <img
+                    class="image-11-icon"
+                    alt=""
+                    src="./public/image-11@2x.png"
+                  />
+                </div>
+                <div class="telegram-api">Telegram API</div>
+              </div>
+            </div>
+            <div class="frame-wrapper4">
+              <div class="chatgpt-parent">
+                <img
+                  class="chatgpt-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/chatgpt@2x.png"
+                />
+
+                <div class="openai-wrapper">
+                  <h3 class="openai">OpenAI</h3>
+                </div>
+              </div>
+            </div>
+            <div class="frame-wrapper5">
+              <div class="frame-parent4">
+                <button class="image-13-wrapper">
+                  <img
+                    class="image-13-icon"
+                    alt=""
+                    src="./public/image-13@2x.png"
+                  />
+                </button>
+                <div class="ollama">Ollama</div>
+              </div>
+            </div>
+            <div class="canvalogo-wrapper">
+              <div class="canvalogo">
+                <img class="canva-icon" alt="" src="./public/canva@2x.png" />
+              </div>
+            </div>
+            <button class="tradingview-logo">
+              <img
+                class="tradingview-icon"
+                alt=""
+                src="./public/tradingview@2x.png"
+              />
+            </button>
+            <div class="frame-wrapper6">
+              <div class="image-18-parent">
+                <img
+                  class="image-18-icon"
+                  alt=""
+                  src="./public/image-18@2x.png"
+                />
+
+                <div class="figma">Figma</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="strategies1">
+        <div class="strategies-inner">
+          <div class="frame-parent5">
+            <div class="strategies-backtests-wrapper">
+              <h1 class="strategies-backtests">Strategies & Backtests</h1>
+            </div>
+            <div class="strategycard">
+              <textarea
+                class="image"
+                placeholder="Cryptocurrency Trading Strategies"
+                rows="{12}"
+                cols="{24}"
+              >
+              </textarea>
+              <div class="strategycard-inner">
+                <div class="title-parent1">
+                  <div class="title3">AutoTrader Plus</div>
+                  <div class="subtitle2">
+                    Automated trading with high accuracy
+                  </div>
+                  <div class="icon-parent">
+                    <div class="icon">🚀</div>
+                    <div class="icon1">📈</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="strategycard1">
+              <textarea
+                class="image1"
+                placeholder="Cryptocurrency Trading Strategies"
+                rows="{12}"
+                cols="{24}"
+              >
+              </textarea>
+              <div class="strategycard-child">
+                <div class="title-parent2">
+                  <div class="title4">AutoTrader Plus</div>
+                  <div class="subtitle3">
+                    Automated trading with high accuracy
+                  </div>
+                  <div class="icon-group">
+                    <div class="icon2">🚀</div>
+                    <div class="icon3">📈</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="divider-icon2" alt="" src="./public/divider.svg" />
+      </section>
+      <section class="work-done">
+        <div class="work-done-inner">
+          <div class="frame-parent6">
+            <div class="workdone-wrapper">
+              <h1 class="workdone">Work Done</h1>
+            </div>
+            <div class="projectcard">
+              <textarea
+                class="image2"
+                placeholder="Previous Projects"
+                rows="{12}"
+                cols="{17}"
+              >
+              </textarea>
+              <div class="projectcard-inner">
+                <div class="title-parent3">
+                  <div class="title5">Strategy Tester Pro</div>
+                  <div class="subtitle4">
+                    Analyze strategies and optimize returns
+                  </div>
+                  <div class="icon-container">
+                    <div class="icon4">🚀</div>
+                    <div class="icon5">📈</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projectcard2">
+              <textarea
+                class="image3"
+                placeholder="Previous Projects"
+                rows="{12}"
+                cols="{17}"
+              >
+              </textarea>
+              <div class="projectcard2-inner">
+                <div class="title-parent4">
+                  <div class="title6">Strategy Tester Pro</div>
+                  <div class="subtitle5">
+                    Analyze strategies and optimize returns
+                  </div>
+                  <div class="icon-parent1">
+                    <div class="icon6">🚀</div>
+                    <div class="icon7">📈</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projectcard3">
+              <textarea
+                class="image4"
+                placeholder="Previous Projects"
+                rows="{12}"
+                cols="{17}"
+              >
+              </textarea>
+              <div class="projectcard3-inner">
+                <div class="title-parent5">
+                  <div class="title7">Strategy Tester Pro</div>
+                  <div class="subtitle6">
+                    Analyze strategies and optimize returns
+                  </div>
+                  <div class="icon-parent2">
+                    <div class="icon8">🚀</div>
+                    <div class="icon9">📈</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="divider-icon3" alt="" src="./public/divider.svg" />
+      </section>
+      <section class="upcoming-projects1">
+        <div class="title8">
+          <h1 class="title9">Upcoming Projects</h1>
+        </div>
+        <div class="list">
+          <div class="item1">
+            <img
+              class="github-icon1"
+              loading="lazy"
+              alt=""
+              src="./public/github@2x.png"
+            />
+
+            <div class="description2">
+              <div class="title10">DeFi Platform</div>
+              <div class="subtitle7">
+                Develop a decentralized lending, borrowing, or trading platform
+                built on blockchain technology, such as Ethereum. Examples
+                include decentralized exchanges (DEXs), liquidity protocols, and
+                yield farming platforms.
+              </div>
+            </div>
+          </div>
+          <div class="item2">
+            <img class="github-icon2" alt="" src="./public/github@2x.png" />
+
+            <div class="description3">
+              <div class="title11">NFT Marketplace</div>
+              <div class="subtitle8">
+                Create a platform for buying, selling, and trading digital
+                assets as NFTs. This could include digital art, collectibles,
+                virtual real estate, or in-game items.
+              </div>
+            </div>
+          </div>
+          <div class="item3">
+            <img class="github-icon3" alt="" src="./public/github@2x.png" />
+
+            <div class="description4">
+              <div class="title12">Decentralized Social Network</div>
+              <div class="subtitle9">
+                Build a social media platform that prioritizes privacy,
+                censorship resistance, and user ownership of data. Users could
+                monetize their content directly through microtransactions or
+                subscriptions.
+              </div>
+            </div>
+          </div>
+          <div class="item4">
+            <img class="github-icon4" alt="" src="./public/github@2x.png" />
+
+            <div class="description5">
+              <div class="title13">Sentiment Analysis Dashboard</div>
+              <div class="subtitle10">
+                Develop a sentiment analysis dashboard that aggregates and
+                analyzes social media, news articles, and market data to gauge
+                overall market sentiment towards specific cryptocurrencies.
+                Provide traders with actionable insights and sentiment
+                indicators to inform their trading decisions.
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="divider-icon4" alt="" src="./public/divider.svg" />
+      </section>
+      <section class="testimonials">
+        <div class="testimonials-inner">
+          <div class="frame-parent7">
+            <div class="title-wrapper">
+              <h1 class="title14">What My Clients Say</h1>
+            </div>
+            <div class="card">
+              <div class="frame-parent8">
+                <div class="avatar-parent">
+                  <div class="avatar">
+                    <img
+                      class="image-17-icon"
+                      loading="lazy"
+                      alt=""
+                      src="./public/image-17@2x.png"
+                    />
+                  </div>
+                  <div class="clientname-wrapper">
+                    <div class="clientname">Kolahan</div>
+                  </div>
+                </div>
+                <div class="review">
+                  Great communication. Awesome coding skills. Highly
+                  recommended.
+                </div>
+              </div>
+              <div class="ratingfooter-wrapper">
+                <div class="ratingfooter">
+                  <div class="ratingfooter-inner">
+                    <div class="star-parent">
+                      <img
+                        class="star-icon"
+                        loading="lazy"
+                        alt=""
+                        src="./public/star@2x.png"
+                      />
+
+                      <img
+                        class="star-icon1"
+                        alt=""
+                        src="./public/star@2x.png"
+                      />
+
+                      <img
+                        class="star-icon2"
+                        alt=""
+                        src="./public/star@2x.png"
+                      />
+
+                      <img
+                        class="star-icon3"
+                        alt=""
+                        src="./public/star@2x.png"
+                      />
+
+                      <img
+                        class="star-icon4"
+                        alt=""
+                        src="./public/star@2x.png"
+                      />
+                    </div>
+                  </div>
+                  <img
+                    class="fiverr-icon1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/fiverr@2x.png"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="divider-icon5" alt="" src="./public/divider.svg" />
+      </section>
+      <section class="community1">
+        <div class="joinform">
+          <h1 class="title15">Join Our Community</h1>
+          <div class="emailinput">
+            <div class="title16">Email</div>
+            <div class="textfield">
+              <input class="text" placeholder="Enter your email" type="text" />
+            </div>
+          </div>
+          <div class="passwordinput">
+            <div class="title17">Password</div>
+            <div class="textfield1">
+              <input
+                class="text1"
+                placeholder="Create a password"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="getintouchbutton">
+            <div class="join-now-wrapper">
+              <b class="join-now">Join Now</b>
+            </div>
+          </div>
+        </div>
+        <div class="profilecard">
+          <button class="profilephoto">
+            <img class="image-19-icon" alt="" src="./public/image-19@2x.png" />
+          </button>
+          <div class="profiledesc">
+            <h3 class="title18">Blockchain / Web Developer</h3>
+            <div class="selection">
+              <div class="label-normal">
+                <div class="label-text">
+                  Expertise in Blockchain and Web Development
+                </div>
+              </div>
+            </div>
+            <i class="description6">Captain, JC Martinez</i>
+          </div>
+          <img class="divider-icon6" alt="" src="./public/divider-6.svg" />
+        </div>
+        <img class="divider-icon7" alt="" src="./public/divider.svg" />
+      </section>
+      <footer class="footer">
+        <div class="footer-container">
+          <h1 class="supportmywork-text">Support My Work</h1>
+          <div class="buymeacoffee">
+            <b class="buy-me-a">Buy Me A Coffee</b>
+            <div class="bitcoinaddress">
+              <div class="icon-bitcoin-cryptocurrency-wrapper">
+                <img
+                  class="icon-bitcoin-cryptocurrency"
+                  alt=""
+                  src="./public/-icon-bitcoin-cryptocurrency.svg"
+                />
+              </div>
+              <div class="bitcoin-btc">Bitcoin (BTC)</div>
+            </div>
+            <div class="ethereumaddress">
+              <div class="icon-ethereum-cryptocurrency-wrapper">
+                <img
+                  class="icon-ethereum-cryptocurrency"
+                  alt=""
+                  src="./public/-icon-ethereum-cryptocurrency.svg"
+                />
+              </div>
+              <div class="ethereum-eth">Ethereum (ETH)</div>
+            </div>
+            <div class="tetheraddress">
+              <div class="icon-tether-cryptocurrency-wrapper">
+                <img
+                  class="icon-tether-cryptocurrency"
+                  alt=""
+                  src="./public/-icon-tether-cryptocurrency.svg"
+                />
+              </div>
+              <div class="tether-usdt">Tether (USDT)</div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="love-what-you-container">
+              <p class="love-what-you">
+                Love what you see? Want to keep the magic happening? Consider
+                fueling my caffeine addiction (and supporting future innovation)
+                by sending some crypto my way!
+              </p>
+              <p class="blank-line">&nbsp;</p>
+            </div>
+            <div class="remember-every-donation">
+              Remember, every donation helps keep the creativity flowing and the
+              projects coming. Cheers for your support!
+            </div>
+          </div>
+          <div class="footersocials">
+            <div class="footergithub-button-wrapper">
+              <div class="footergithub-button">
+                <img
+                  class="github-icon5"
+                  alt=""
+                  src="./public/github-4@2x.png"
+                />
+              </div>
+            </div>
+            <div class="footerx-button-wrapper">
+              <div class="footerx-button">
+                <img
+                  class="twitterx-icon1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/twitterx@2x.png"
+                />
+              </div>
+            </div>
+            <div class="footertg-button-wrapper">
+              <div class="footertg-button">
+                <img
+                  class="telegram-app-icon1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/telegram-app@2x.png"
+                />
+              </div>
+            </div>
+            <div class="footerdiscord-button-wrapper">
+              <div class="footerdiscord-button">
+                <img
+                  class="discord-new-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/discord-new@2x.png"
+                />
+              </div>
+            </div>
+            <button class="footerfiverr-button">
+              <img class="fiverr-icon2" alt="" src="./public/fiverr-1@2x.png" />
+            </button>
+          </div>
+          <div class="footerlinks">
+            <div class="copyright-button">
+              <div class="copyright">© 2024 JCM Labs</div>
+            </div>
+            <div class="privacy-policy-button">
+              <div class="privacypolicy">Privacy Policy</div>
+            </div>
+            <div class="terms-button">
+              <div class="termsofservice">Terms of Service</div>
+            </div>
+            <div class="contact-us-button">
+              <div class="contactus">Contact Us</div>
+            </div>
+            <div class="resources1">
+              <div class="resources2">Resources</div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-
-    <div id="about" class="section">
-        <h2>About Us</h2>
-        <p>Learn about our team, mission, and vision. Discover how we aim to revolutionize cryptocurrency trading through innovative technology and user-centric design.</p>
-    </div>
-
-    <div id="services" class="section">
-        <h2>Automate Your Crypto Trading with Custom Bots</h2>
-        <p>Are you tired of constantly monitoring the volatile crypto markets? Do you want to automate your trading strategies and maximize your profits? Look no further!</p>
-        <p>As an experienced crypto trader and solo entrepreneur, I specialize in leveraging the power of Freqtrade and machine learning to help you build a custom crypto trading bot that meets your unique needs and preferences.</p>
-        <h3>My Services Include:</h3>
-        <ul>
-            <li>Custom bot development using Freqtrade, a free, open-source, and highly customizable crypto trading bot framework</li>
-            <li>In-depth strategy development and backtesting to ensure that your bot is optimized for your trading style and goals</li>
-            <li>Machine learning-based bot development to help identify market trends and make informed trading decisions</li>
-            <li>Bot testing and optimization to ensure that your bot performs well in different market conditions</li>
-            <li>Ongoing support and maintenance to ensure that your bot is running smoothly and taking advantage of the latest market trends</li>
-        </ul>
-        <p>Note: VPS setup charges, if required, are separate.</p>
-        <p>Telegram: <a href="https://t.me/DegenSupremeOne">@DegenSupremeOne</a></p>
-    </div>
-
-    <div id="strategies" class="section">
-        <h2>Proven Strategies</h2>
-        <p>Explore our proven trading strategies tailored for different market conditions. From trend-following to mean-reversion, we've got you covered with strategies designed to maximize profits.</p>
-    </div>
-
-    <div id="backtests" class="section">
-        <h2>Backtests & Results</h2>
-        <p>View the results of our backtests to see how our strategies have performed historically. Gain confidence in our approach by analyzing past performance across various market scenarios.</p>
-    </div>
-
-    <div id="community" class="section">
-        <h2>Join Our Community</h2>
-        <p>Connect with fellow traders, share insights, and discuss trading strategies in our vibrant community. Learn from experienced traders and collaborate to stay ahead in the market.</p>
-    </div>
-
-    <div id="contact" class="section">
-        <h2>Contact Us</h2>
-        <p>Have questions or need support? Reach out to our team for assistance. We're here to help you navigate our platform, address any concerns, and provide personalized assistance.</p>
-    </div>
-
-    <div id="login" class="section">
-        <h2>Login / Signup</h2>
-        <p>Access your account or sign up to get started with CryptoAlgoTrader. Manage your trading strategies, track performance, and customize your trading experience with ease.</p>
-    </div>
-
-    <div id="resources" class="section">
-        <h2>Educational Resources</h2>
-        <p>Enhance your trading knowledge with our educational resources. From beginner guides to advanced trading techniques, we offer a comprehensive library to empower your trading journey.</p>
-    </div>    
-
-    <!-- Your JavaScript for smooth scrolling -->
-    <script src="src/static/js/script.js"></script>
-</body>
+  </body>
 </html>
+
